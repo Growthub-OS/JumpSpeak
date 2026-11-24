@@ -23,9 +23,24 @@ Use seven provisional **buyer-situation** lenses: Deadline-Driven Traveler; Rela
 
 ## 4. Ad Account Performance Insights
 
-**Approved JumpSpeak goal: Meta-attributed purchase CPA < $150.** Never use ROAS to select or rank JumpSpeak creative winners. Data source: connected Meta Ads plugin, account reference previously verified as `175635307860977`; reconfirm live identity and access at run time. Pull 14 completed days for mature acquisition ads and 5–7 days for recent tests; disclose account timezone/attribution, campaign lanes, currency and whether data is sampled.
+**Approved JumpSpeak goal: Meta-attributed purchase CPA < $150.** Use CPA to select and rank creative winners. ROAS is optional context. Data source: connected Meta Ads plugin, account reference previously verified as `175635307860977`; reconfirm live identity and access at run time. Pull 14 completed days for mature acquisition ads and 5–7 days for recent tests; disclose account timezone/attribution, campaign lanes, currency and whether data is sampled.
 
 For each decision-driving ad show exact ad name/ID, creative thumbnail/media link, campaign/ad set, spend, purchases, CPA and diagnosis. Include impressions, frequency, CPM, CTR **with click definition**, link/outbound clicks and CPC, video playback/ThruPlay and percent-watch rates where available. Never label ThruPlay/impressions as a 3-second hook rate. Flag missing 3-second plays, incomplete video observations, ad length mismatch, external image URL expiry and insufficient delivery. Compare regions and promo/evergreen campaigns cautiously. Actions: preserve, iterate, diagnose, continue collecting, or deprioritize. Every iteration hypothesis states which element is held and which single meaningful variable changes.
+
+### Use diagnostics to choose the next iteration
+
+Use the [JumpSpeak ad performance benchmarks](docs/CLIENT_CONFIG.md#ad-performance-benchmarks). Read CPA with spend and purchases first, then use the diagnostics to propose one testable change for the weekly plan.
+
+| Signal | Weekly testing implication |
+|---|---|
+| Hook rate below 35% | Test the opening line, first frame or first action. Hold the body and offer steady. A 50% hook rate is a strong result in this account. |
+| Hold rate below the 12–15% aim | If the hook is working, test the transition into the body, pacing, or how early the product demo or proof appears. A 20%+ hold rate is strong in this account. |
+| CTR below 2% or CPC at $2 or higher | Check the click definition and whether CPM is contributing. Use the evidence to choose one change to the message, benefit, offer framing or CTA. |
+| Frequency at 1.8 or higher in scaling or acquisition | Check audience saturation, delivery and CPA trends before deciding whether a creative refresh is warranted. |
+| Strong diagnostics with CPA at $150 or higher | Check spend and purchase volume, then examine post-click or offer friction where evidence is available. Use the diagnostics to form a hypothesis. |
+| ROAS around 0.5× | Record as optional context when available. JumpSpeak considers 0.5× acceptable and higher preferable. CPA leads ranking and iteration decisions. |
+
+Record the hook and hold definitions, denominators, and windows. Compare rates only when their definitions and delivery scopes align. Use the same click type for CTR and CPC. Record unavailable metrics as missing. Apply frequency at the reported campaign scope rather than adding or averaging ad-level frequency. Leave the final cause provisional when the data only shows a correlation.
 
 **Observed 2026-11-09 through 2026-11-22 examples, not evergreen forecasts:** B2006 Speed Talking Head ~$127 CPA, Founder 20 People V3 ~$129, B357 Static-to-GIF ~$134, B1438 Comparison ~$162, B1573 Street Interview V2 ~$173. Confirm account, creative and period before reuse. Promo results may not generalize to evergreen.
 
@@ -61,4 +76,4 @@ Track concept ID → variant ID → finished asset → Meta creative ID → Meta
 
 ## 10. Reporting, QA, governance
 
-Every report shows source retrieval date, scopes, KPI authority, evidence links, unresolved limitations, and honest lifecycle status. Reconcile two GitHub copies after changes; preserve the same file set and version unless an account-specific governance exception is documented. Both JumpSpeak mirrors must be private. No API keys, signed Meta CDN links as durable assets, client PII, private performance exports or client-owned downloadable media in Git history. Store full assets in approved controlled systems, with pointers in SOURCE_MANIFEST.md.
+Every report shows source retrieval date, scopes, KPI authority, evidence links, unresolved limitations, and honest lifecycle status. Reconcile two GitHub copies after changes; preserve the same file set and version unless an account-specific governance exception is documented. Both JumpSpeak mirrors are public as approved. No API keys, signed Meta CDN links as durable assets, client PII, private performance exports or client-owned downloadable media in Git history. Store full assets in approved controlled systems, with pointers in SOURCE_MANIFEST.md.

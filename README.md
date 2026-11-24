@@ -1,6 +1,6 @@
 # JumpSpeak Creative Strategy & Production
 
-Private client operating repository, patterned after the Twillory creative workflow without inheriting Twillory-specific KPI, product, owner, or platform configuration.
+Public client operating repository, patterned after the Twillory creative workflow without inheriting Twillory-specific KPI, product, owner, or platform configuration.
 
 **Documented:** 2026-11-23. **Publication:** See [GitHub mirror status](PROJECT_STATUS.md#github-mirror-publication) for access and verification.
 

@@ -32,7 +32,11 @@ The source manifest identifies the historical artifacts. This repository review 
 
 - Created November 23, 2026 after GitHub confirmed the name was available in both namespaces. GitHub showed **Private** on [BrandonGrowthub/JumpSpeak](https://github.com/BrandonGrowthub/JumpSpeak) and [Growthub-OS/JumpSpeak](https://github.com/Growthub-OS/JumpSpeak).
 - Both mirrors use the same ten-file package. When updating either copy, verify the default-branch file set and compare file contents across both before reporting the change complete.
-- The GitHub integration returned 404 for the new private repositories. The signed-in browser was used for repository setup.
+- Both mirrors were subsequently made public with user approval. The GitHub integration can read both public repositories.
+
+## Performance benchmark update
+
+- Added the [JumpSpeak ad performance benchmarks](docs/CLIENT_CONFIG.md#ad-performance-benchmarks) and [weekly iteration guidance](PROCESS.md#use-diagnostics-to-choose-the-next-iteration). The benchmarks describe account expectations. Test eligibility, exact live metric definitions and current results still need verification.
 
 ## Operational follow-up
 
