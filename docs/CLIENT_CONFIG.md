@@ -17,6 +17,20 @@
 | Competitor inspiration | Foreplay + reviewed creative media; direct/adjacent/organic | No claims of competitors' paid CPA without verified data |
 | Project management | Asana | Known project URL; **no schema/owner verification yet** |
 | Production brief status | **Not started; user explicitly paused** | Direct project instruction |
-| GitHub repositories | Intended `BrandonGrowthub/JumpSpeak` and `Growthub-OS/JumpSpeak` | Private visibility required. See [publication status](../PROJECT_STATUS.md#github-mirror-publication). |
+| GitHub repositories | Intended `BrandonGrowthub/JumpSpeak` and `Growthub-OS/JumpSpeak` | Public visibility approved. See [publication status](../PROJECT_STATUS.md#github-mirror-publication). |
+
+## Ad performance benchmarks
+
+| Metric | JumpSpeak benchmark |
+|---|---|
+| Hook rate | **At least 35%**. **50%** is strong and commonly attainable for this account. |
+| Hold rate | **Aim for 12–15%**. **20%+** is strong and commonly attainable for this account. |
+| Click-through rate (CTR) | **At least 2%**. Record the click definition. |
+| Cost per click (CPC) | **Under $2**. Use the same click definition as CTR. |
+| Frequency | **Under 1.8** for scaling and acquisition campaigns. |
+| Meta-attributed purchase CPA | **Under $150**. Primary decision metric. |
+| ROAS | **0.5× is acceptable** and higher is preferable. Optional context. |
+
+See [how to use these metrics in weekly iterations](../PROCESS.md#use-diagnostics-to-choose-the-next-iteration).
 
 **Do not inherit:** Twillory ROAS goal, Monday.com board fields, SKU-driven allocation, names/owners or geography benchmarks.
